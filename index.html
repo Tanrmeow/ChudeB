@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanrmeow</title>
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #ad1457;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+    .tree {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .node {
+      background-color: #f06292;
+      color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      width: 250px;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+    }
+    .node:hover {
+      background-color: #ec407a;
+      transform: scale(1.05);
+    }
+    .node ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+    .node ul li {
+      margin: 15px 0;
+    }
+    .line {
+      width: 100%;
+      height: 3px;
+      background-color: #f06292;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .node a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .node a:hover {
+      text-decoration: underline;
+    }
+    .subtree {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    /* Background gradients */
+    .gradient-background {
+      background: linear-gradient(to bottom right, #f48fb1, #ad1457);
+      padding: 10px;
+      border-radius: 12px;
+    }
+    .subtree .node {
+      background-color: #f8bbd0;
+      color: #ad1457;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .subtree .node:hover {
+      background-color: #f48fb1;
+    }
+    .subtree .node a {
+      color: #ad1457;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>CHỦ ĐỀ A: MÁY TÍNH VÀ XÃ HỘI TRI THỨC</h1>
+  <div class="tree">
+    <!-- Node Trung Tâm -->
+    <div class="node gradient-background">
+      <p>Máy Tính và Xã Hội Tri Thức</p>
+      <div class="line"></div>
+      <ul>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">AI là gì?</a></li>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">AI mạnh & AI yếu</a></li>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Ứng dụng AI</a></li>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Lĩnh vực nghiên cứu AI</a></li>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">AI và đạo đức</a></li>
+        <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Lịch sử phát triển AI</a></li>
+      </ul>
+    </div>
+
+    <div class="subtree">
+      <!-- Node AI Mạnh & AI Yếu -->
+      <div class="node gradient-background">
+        <p>AI Mạnh & AI Yếu</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan1.html">AI mạnh: Giống con người</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan1.html">AI yếu: Ứng dụng cụ thể</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan1.html">Các ví dụ của AI yếu</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan1.html">Sự phát triển của AI mạnh</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan1.html">AI và nhận thức</a></li>
+        </ul>
+      </div>
+
+      <!-- Node Thành Tựu và Ứng Dụng -->
+      <div class="node gradient-background">
+        <p>Thành Tựu và Ứng Dụng</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan2.html">Deep Blue đánh bại Kasparov</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan2.html">AI trong Y tế</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan2.html">AI trong Dịch Vụ Khách Hàng</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan2.html">Cobot và người máy</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan2.html">AI trong quản lý doanh nghiệp</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subtree">
+      <!-- Node Lĩnh Vực Nghiên Cứu -->
+      <div class="node gradient-background">
+        <p>Lĩnh Vực Nghiên Cứu AI</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Học máy: Máy học từ dữ liệu</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Xử lý ngôn ngữ tự nhiên: Máy hiểu và giao tiếp</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Thị giác máy tính: Nhận diện hình ảnh</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">AI tạo sinh: Tạo ra nội dung mới</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Học sâu (Deep Learning): Một phương pháp học máy</a></li>
+        </ul>
+      </div>
+
+      <!-- Node Ứng Dụng AI -->
+      <div class="node gradient-background">
+        <p>Ứng Dụng AI</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Y tế: Chẩn đoán bệnh, AI hỗ trợ bác sĩ</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Giáo dục: Hệ thống dạy học cá nhân hóa</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Tài chính: Phát hiện gian lận, dự đoán giao dịch</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Robot công nghiệp: Tự động hóa sản xuất</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">Ô tô tự lái: Ứng dụng AI trong giao thông</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan0.html">AI trong sản xuất: Quản lý chuỗi cung ứng thông minh</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subtree">
+      <!-- Node Cảnh Báo và Tiềm Năng -->
+      <div class="node gradient-background">
+        <p>Cảnh Báo và Tiềm Năng</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan3.html">Mất việc làm: AI thay thế con người?</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan3.html">Vi phạm quyền riêng tư: Dữ liệu người dùng bị lạm dụng</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan3.html">Sử dụng AI cho mục đích xấu: AI tạo tin giả, vũ khí tự động</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan3.html">An ninh mạng: Đe dọa từ hacker AI</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan3.html">AI và tác động tới xã hội</a></li>
+        </ul>
+      </div>
+
+      <!-- Node Tương Lai của AI -->
+      <div class="node gradient-background">
+        <p>Tương Lai của AI</p>
+        <div class="line"></div>
+        <ul>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan4.html">AI tự học và phát triển độc lập</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan4.html">Tích hợp AI vào mọi lĩnh vực xã hội</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan4.html">Thách thức đạo đức trong AI</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan4.html">AI và sự phát triển của nhân loại</a></li>
+          <li><a href="https://tanrmeow.github.io/chudeA//Dapan4.html">Tương lai của công việc và AI</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <p>TranDongViet</p>
+
+</body>
+</html>
